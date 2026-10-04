@@ -1,8 +1,8 @@
 class Hbr < Formula
   desc "Encrypted, portable, scheduled Postgres backups; restore any snapshot anywhere"
   homepage "https://github.com/ashishbhatiya18/hbr"
-  url "https://github.com/ashishbhatiya18/hbr/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "cfa7b107d91a2ba38019fd63c40e4272a875fbaf5bb9b4402006f9af88b99e62"
+  url "https://github.com/ashishbhatiya18/hbr/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "d3778b184c8da654ea8f708126acf3070e12006a33706cedb1ffafdb69dbfc8a"
   license "MIT"
   head "https://github.com/ashishbhatiya18/hbr.git", branch: "main"
 
