@@ -4,6 +4,8 @@ class Hbr < Formula
   url "https://github.com/ashishbhatiya18/hbr/archive/refs/tags/v0.1.2.tar.gz"
   sha256 "5edaf54aeb8ee51d4e82cf97d3ac75aeeb6424ed436970508bc14fd1376aa242"
   license "MIT"
+
+  deprecate! date: "2026-10-04", because: "is now `home br` (brew install ashishbhatiya18/tap/home)"
   head "https://github.com/ashishbhatiya18/hbr.git", branch: "main"
 
   depends_on "go" => :build
