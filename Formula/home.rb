@@ -1,8 +1,8 @@
 class Home < Formula
   desc "Run your homelab from your Mac: nodes, stacks, upgrades and encrypted backups"
   homepage "https://github.com/ashishbhatiya18/home"
-  url "https://github.com/ashishbhatiya18/home/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "e696e2c9e84cd3124a5e4b58f77f345ad04255d5d0d97502b45783ffe54f87c2"
+  url "https://github.com/ashishbhatiya18/home/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "d50615bdb2d7f23e09b9857dd7df587c75875426957acc93e82e683e5c3d6c75"
   license "MIT"
   head "https://github.com/ashishbhatiya18/home.git", branch: "main"
 
