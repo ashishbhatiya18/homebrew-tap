@@ -1,16 +1,22 @@
 class Home < Formula
   desc "Run your homelab from your Mac: nodes, stacks, upgrades and encrypted backups"
-  homepage "https://github.com/ashishbhatiya18/home"
-  url "https://github.com/ashishbhatiya18/home/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "d50615bdb2d7f23e09b9857dd7df587c75875426957acc93e82e683e5c3d6c75"
+  homepage "https://github.com/ashishbhatiya18/homelab/tree/main/home-cli"
+  version "0.4.0"
   license "MIT"
-  head "https://github.com/ashishbhatiya18/home.git", branch: "main"
 
-  depends_on "go" => :build
+  on_arm do
+    url "https://github.com/ashishbhatiya18/homelab/releases/download/home-cli-v0.4.0/home_darwin_arm64.tar.gz"
+    sha256 "f587559d2109685c36d1c060f8ed88a7a0b4541ee483620fcfd432b932fe9cdc"
+  end
+  on_intel do
+    url "https://github.com/ashishbhatiya18/homelab/releases/download/home-cli-v0.4.0/home_darwin_amd64.tar.gz"
+    sha256 "d21bdfd49fcbb90c0e28741eed71f8e800f9f7a06756401172f9697d524a2218"
+  end
+
   depends_on "libpq" # pg_restore/psql/pg_dump for backup validation and restores
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}"), "./cmd/home"
+    bin.install "home"
   end
 
   # Started by `home install`. Runs at login and every 15 minutes; home decides
