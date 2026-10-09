@@ -1,16 +1,16 @@
 class HomeCheck < Formula
   desc "home background job: daily node and update check with a notification"
   homepage "https://github.com/ashishbhatiya18/homelab/tree/main/home-cli"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_arm do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:575f52f2de45f621cb5ee9e59687bcdb5e5a82f2f8625ddb3e23151b1796690b"
-    sha256 "575f52f2de45f621cb5ee9e59687bcdb5e5a82f2f8625ddb3e23151b1796690b"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:6d33f92910c67f299a09ff323aa659c05da9edc20b1d132a6ee4a4642d7111a0"
+    sha256 "6d33f92910c67f299a09ff323aa659c05da9edc20b1d132a6ee4a4642d7111a0"
   end
   on_intel do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:7381062358a4c6c986222939c65a7e76eb86a0c906e46d385829f152212c6384"
-    sha256 "7381062358a4c6c986222939c65a7e76eb86a0c906e46d385829f152212c6384"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:e5f955808315039336c4d0cc4043e03e4a2490d936d277a6069799129be13044"
+    sha256 "e5f955808315039336c4d0cc4043e03e4a2490d936d277a6069799129be13044"
   end
 
   depends_on "ashishbhatiya18/tap/home"
