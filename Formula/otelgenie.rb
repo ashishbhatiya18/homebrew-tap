@@ -1,7 +1,6 @@
 class Otelgenie < Formula
   desc "From a collector endpoint to working OpenTelemetry, guided, on your own machine"
   homepage "https://github.com/ashishbhatiya18/otelgenie"
-  version "0.3.0"
 
   on_macos do
     on_arm do
