@@ -1,16 +1,16 @@
 class HomeBackup < Formula
   desc "home background job: encrypted backups (home br) when due"
   homepage "https://github.com/ashishbhatiya18/homelab/tree/main/home-cli"
-  version "0.5.1"
+  version "0.6.0"
   license "MIT"
 
   on_arm do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:6d33f92910c67f299a09ff323aa659c05da9edc20b1d132a6ee4a4642d7111a0"
-    sha256 "6d33f92910c67f299a09ff323aa659c05da9edc20b1d132a6ee4a4642d7111a0"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:224e683a6674d6daf7d74001d1d7d8fadf9165816e16d4b85caef576cc6f4953"
+    sha256 "224e683a6674d6daf7d74001d1d7d8fadf9165816e16d4b85caef576cc6f4953"
   end
   on_intel do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:e5f955808315039336c4d0cc4043e03e4a2490d936d277a6069799129be13044"
-    sha256 "e5f955808315039336c4d0cc4043e03e4a2490d936d277a6069799129be13044"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:743750400e0b1d18c0ac39ba15639932580388c0462bd5ffbd4782ffbe7fdd76"
+    sha256 "743750400e0b1d18c0ac39ba15639932580388c0462bd5ffbd4782ffbe7fdd76"
   end
 
   depends_on "ashishbhatiya18/tap/home"
