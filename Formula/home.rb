@@ -1,16 +1,16 @@
 class Home < Formula
   desc "Run your homelab from your Mac: nodes, stacks, upgrades and encrypted backups"
   homepage "https://github.com/ashishbhatiya18/homelab/tree/main/home-cli"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_arm do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:bb7b916a5816b0e30694200afee455a1f5fb24fbdd15f2699018a999bd5029c4"
-    sha256 "bb7b916a5816b0e30694200afee455a1f5fb24fbdd15f2699018a999bd5029c4"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:5b216e161ff81e2dce026317d636bf05900ab4c06fbd70b7263b04cc6ef0a370"
+    sha256 "5b216e161ff81e2dce026317d636bf05900ab4c06fbd70b7263b04cc6ef0a370"
   end
   on_intel do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:ea60d69391105cce91cec9a776cf836a6fd4b299027062eadf4fdbc9cd980718"
-    sha256 "ea60d69391105cce91cec9a776cf836a6fd4b299027062eadf4fdbc9cd980718"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:455ced80a85eb197690af43892f4d2c9a246c2ab7d12412d99b2cd906a91b5a6"
+    sha256 "455ced80a85eb197690af43892f4d2c9a246c2ab7d12412d99b2cd906a91b5a6"
   end
 
   depends_on "libpq" # pg_restore/psql/pg_dump for backup validation and restores
