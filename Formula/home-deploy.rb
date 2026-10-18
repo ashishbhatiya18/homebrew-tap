@@ -1,16 +1,16 @@
 class HomeDeploy < Formula
   desc "home background job: deploys new node bundles with health checks and rollback"
   homepage "https://github.com/ashishbhatiya18/homelab/tree/main/home-cli"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_arm do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:5b216e161ff81e2dce026317d636bf05900ab4c06fbd70b7263b04cc6ef0a370"
-    sha256 "5b216e161ff81e2dce026317d636bf05900ab4c06fbd70b7263b04cc6ef0a370"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:b12d095a56b91394a5e341b7b95004943ba422e7c61cbb05e3c3be31f706812e"
+    sha256 "b12d095a56b91394a5e341b7b95004943ba422e7c61cbb05e3c3be31f706812e"
   end
   on_intel do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:455ced80a85eb197690af43892f4d2c9a246c2ab7d12412d99b2cd906a91b5a6"
-    sha256 "455ced80a85eb197690af43892f4d2c9a246c2ab7d12412d99b2cd906a91b5a6"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:20c4026890452316e46ba22dae50624a1d9395a0497f9197e7791aa624ea43e7"
+    sha256 "20c4026890452316e46ba22dae50624a1d9395a0497f9197e7791aa624ea43e7"
   end
 
   depends_on "ashishbhatiya18/tap/home"
