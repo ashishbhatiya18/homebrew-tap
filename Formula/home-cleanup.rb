@@ -1,16 +1,16 @@
 class HomeCleanup < Formula
   desc "home background job: daily pruning of unused images and caches on every node"
   homepage "https://github.com/ashishbhatiya18/homelab/tree/main/home-cli"
-  version "0.9.1"
+  version "0.10.0"
   license "MIT"
 
   on_arm do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:71c7c7f25ba977490b59b666ff545cc4265117d093d23bdaf3b9bfd90b5a8d5d"
-    sha256 "71c7c7f25ba977490b59b666ff545cc4265117d093d23bdaf3b9bfd90b5a8d5d"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:a3c8087fcb04b225a983c8d3995eb485853b4f8aaba8690f11e73a0906fe96dc"
+    sha256 "a3c8087fcb04b225a983c8d3995eb485853b4f8aaba8690f11e73a0906fe96dc"
   end
   on_intel do
-    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:134ed2e2de108e3e0353e52592f0d05063ad1e36b5125be1c75fc9104c7e4326"
-    sha256 "134ed2e2de108e3e0353e52592f0d05063ad1e36b5125be1c75fc9104c7e4326"
+    url "https://ghcr.io/v2/ashishbhatiya18/home-cli/blobs/sha256:4ec2d7ac2a01409c72c3edaef6f41b46aaaffd8535e5f4a1d6e6358e9f3a61c1"
+    sha256 "4ec2d7ac2a01409c72c3edaef6f41b46aaaffd8535e5f4a1d6e6358e9f3a61c1"
   end
 
   depends_on "ashishbhatiya18/tap/home"
