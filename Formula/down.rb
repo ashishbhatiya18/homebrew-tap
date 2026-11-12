@@ -1,16 +1,16 @@
 class Down < Formula
   desc "Download magnet links, torrents, YouTube and URLs, then clean up the leftovers"
   homepage "https://github.com/ashishbhatiya18/homelab/tree/main/down-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_arm do
-    url "https://ghcr.io/v2/ashishbhatiya18/down-cli/blobs/sha256:82d4374afc07b1a458b723493a6242b7c23cf12156158119cf6e74183a422a6c"
-    sha256 "82d4374afc07b1a458b723493a6242b7c23cf12156158119cf6e74183a422a6c"
+    url "https://ghcr.io/v2/ashishbhatiya18/down-cli/blobs/sha256:5a6524946f04d22d040ab0af7d4bf6286e00e231e468522e4ab7d636a6bd6c32"
+    sha256 "5a6524946f04d22d040ab0af7d4bf6286e00e231e468522e4ab7d636a6bd6c32"
   end
   on_intel do
-    url "https://ghcr.io/v2/ashishbhatiya18/down-cli/blobs/sha256:fbb48f50c1c17ec52288038ef4130e68e0ff6c892e14baacaec486adb077c0ca"
-    sha256 "fbb48f50c1c17ec52288038ef4130e68e0ff6c892e14baacaec486adb077c0ca"
+    url "https://ghcr.io/v2/ashishbhatiya18/down-cli/blobs/sha256:d2f281a27c8983d22515b9c7cef6ad9914dc261439288f2398be61d2c6fccfd4"
+    sha256 "d2f281a27c8983d22515b9c7cef6ad9914dc261439288f2398be61d2c6fccfd4"
   end
 
   depends_on "aria2"   # torrents and direct downloads
